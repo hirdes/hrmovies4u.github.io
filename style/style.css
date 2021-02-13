@@ -148,7 +148,7 @@ body {
     border-left: 5px solid turquoise;
     background: antiquewhite;
     display: flex;
-    padding: 15px 3% 15px 8%;
+    padding: 15px 2% 15px 8%;
     text-decoration: none;
     transform: scale(1);
     transition: 0.3s ease-in-out;
@@ -157,7 +157,7 @@ body {
 .post .movie-title h1 a:hover {
     width: 100%;
     background-color: turquoise;
-    padding: 15px 11% 15px 10%;
+    padding: 15px 10% 15px 10%;
 }
 
 .post .img {
