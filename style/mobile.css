@@ -1,0 +1,104 @@
+@media only screen and (max-width: 903px) {
+    .site-header {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .site-header .site-title {
+        display: block;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .site-title h1 a {
+        font-size: 45px;
+    }
+    .site-header .search-bar {
+        display: inline;
+    }
+    .search-bar form input {
+        display: inline;
+        padding: 10px 5% 10px 15px;
+    }
+    .search-bar form .btn {
+        display: inline;
+        /* padding: 5px 10px; */
+    }
+    /* Navigation CSS Start Here */
+    .menu-toggle {
+        user-select: none;
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+    }
+    .menu-toggle::before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+    }
+    .menu-toggle.active::before {
+        content: '\f00d';
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
+    }
+    .navigation.active ul {
+        display: block;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .navigation ul li a:hover {
+        padding-left: 47px;
+    }
+    /* Site-Inner CSS Start Here */
+    .site-inner {
+        display: block;
+    }
+    .content-sidebar {
+        display: block;
+        width: 100%;
+    }
+    .post .movie-title h1 a {
+        font-size: 19px;
+    }
+    .widget-sidebar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .site-header .site-title {
+        display: block;
+        width: 100%;
+    }
+    .site-title h1 a {
+        font-size: 35px;
+    }
+    .site-header .search-bar {
+        width: 100%;
+        display: block;
+    }
+    .search-bar form input {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .search-bar form .btn {
+        display: block;
+    }
+    /* Navigation CSS Start Here */
+    .navigation ul li a:hover {
+        padding-left: 40px;
+    }
+    /* Site-Inner CSS Start Here */
+    .content .post {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 45px;
+    }
+    .post .movie-title h1 a {
+        font-size: 17px;
+    }
+}
