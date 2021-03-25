@@ -31,7 +31,7 @@
         margin: auto;
         cursor: pointer;
         background-color: white;
-        border-bottom: 5px solid red;
+        border-bottom: 5px solid turquoise;
     }
 
     .menu-toggle::before {
@@ -90,9 +90,7 @@
         display: block;
     }
     /* Navigation CSS Start Here */
-    .navigation ul li a:hover {
-        padding-left: 40px;
-    }
+   
     /* Site-Inner CSS Start Here */
     .content .post {
         width: 100%;
